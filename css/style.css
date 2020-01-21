@@ -1,0 +1,51 @@
+body
+{
+
+font-weight: normal;
+font-style: normal;
+font-size: 1.1em;
+line-height: 1.4;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #FEF4FE;
+
+/*
+Or we can write in one line
+font:normal normal 1.1em/1.4 Arial, Helvetica, sans-serif;
+*/
+}
+
+h1
+{
+
+    background-color:#700B70;
+    color:#fff;
+    text-align: center;
+    font-size: 2em;/*'em' Multiple of current size which is 1.1 (body) */
+    /*background-image: url(../img/humber.jpg); */
+}
+
+article {
+    width: 70%;
+    background-color: #fff;
+    margin: 10;
+}
+
+.mainimage{
+
+    width: 70%;
+}
+
+.rel
+{
+    text-align: left;
+}
+
+.footer
+{
+
+    height: 10%;
+    background-color:#700B70;
+    text-align: center;
+    color: #fff;
+
+}
