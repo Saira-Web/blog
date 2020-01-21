@@ -20,6 +20,13 @@ font:normal normal 1.1em/1.4 Arial, Helvetica, sans-serif;
 */
 }
 
+.container
+{
+
+    margin:auto;
+    width:70%;
+}
+
 .head
 {
 
@@ -40,14 +47,14 @@ font:normal normal 1.1em/1.4 Arial, Helvetica, sans-serif;
 }
 
 article {
-    width: 90%;
+    width: 100%;
     background-color: #fff;
     font-family:var(--articlefont) ;
-    padding: 1em;;
+    padding: -1em;;
     border-style: groove;
     border-radius: 1em;
     margin: auto;
-    max-width: 60em;
+  
    
 }
 
@@ -69,6 +76,7 @@ article {
 
     height:auto;
     padding: 1em 2em 1.5em 0.5em;/*Top right botoom left, if two values than top and bottom*/
+    padding:2em 2em 2em 2em;
     border-width: 0.5em;
     border-style: solid;
     border-color: black;
@@ -93,16 +101,17 @@ article {
 }
 
 .imgset{
-    max-width: 100%;
+    max-width: 90%;
+    margin: auto;
 }
-/*
-.clearfix:after {
-    display: block;
-    content: '';
-    clear: both;
-}
-*/
+
 
 a{
     color: var(--bgcolor);
+}
+
+.inlinelist{
+
+display: inline;
+
 }
