@@ -72,21 +72,25 @@ article {
     box-sizing: content-box;
     /* Content Box Heightw/width sets for content
     Border-box sets height width for whole box */
-    width:15em;
+    width:16em;
 
     height:auto;
-    padding: 1em 2em 1.5em 0.5em;/*Top right botoom left, if two values than top and bottom*/
+/*    padding: 1em 2em 1.5em 0.5em;Top right botoom left, if two values than top and bottom*/
     padding:2em 2em 2em 2em;
-    border-width: 0.5em;
+    text-align: center;
+    border-width: 0.1em;
     border-style: solid;
     border-color: black;
     /*margin: 1em;*/
-
+    background-color: azure;
     border-radius: 1em;
 }
 .related
 {
-    width: 70%;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-bottom: 0.5em;
 
 }
 .footer
@@ -101,8 +105,9 @@ article {
 }
 
 .imgset{
-    max-width: 90%;
-    margin: auto;
+    max-width: 99%;
+
+    margin: 0;
 }
 
 
@@ -113,5 +118,20 @@ a{
 .inlinelist{
 
 display: inline;
+
+}
+
+.socialmedia
+{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   text-align: center;
+   margin-bottom: 0.5em;
+   flex-direction: row;
+   flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 20em;
+    align-items: stretch
 
 }
