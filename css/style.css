@@ -186,3 +186,10 @@ display: inline;
 {
     color: darkmagenta;
 }
+.blogsnav
+{
+    background-color: darkmagenta;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0.5em;
+}
