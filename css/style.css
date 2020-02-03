@@ -93,6 +93,52 @@ article {
    margin-bottom: 0.5em;
 
 }
+
+.contentbox
+{
+   display: flex;
+   border-width: 0.1em;
+   border-style: solid;
+   border-color: black;
+   margin-bottom: 0.5em;
+   background-color: bisque;
+   width:98%;
+   margin-left: 1%;
+
+
+}
+.boxright
+{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    
+}
+.blogslist
+{
+    display: flex;
+
+    flex-direction: column;
+}
+.cimg
+{
+
+    box-sizing: content-box;
+    width:90%;
+    height:auto;
+
+ 
+}
+.clink
+{
+    background-color: blueviolet;
+    height: 2.5em;
+    text-align: center;
+    
+}
+.ctext{
+flex-grow: 2;
+}
 .footer
 {
 
@@ -134,4 +180,9 @@ display: inline;
     min-height: 20em;
     align-items: stretch
 
+}
+
+.articletitle
+{
+    color: darkmagenta;
 }
